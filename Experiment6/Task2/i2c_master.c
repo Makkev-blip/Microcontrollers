@@ -1,7 +1,7 @@
 
 /**
 	@author Thomas Grunenberg
-	@author TODO
+	@author Kelvin Makaka
 	@version 0.1
 	@file i2c_master.c
 	@brief Use the Two Wire Interface / I2C
@@ -151,7 +151,7 @@ uint8_t i2c_master_read_next(void){
 uint8_t i2c_master_read_last(void){
 	
 	// Enable reciving (with stop condition)
-	// TODO
+	TWCR = (1<<TWINT)|(1<<TWEN);
 		
 	// wait for complete byte
 	while( !( TWCR & (1 << TWINT) ) )
@@ -169,7 +169,7 @@ uint8_t i2c_master_read_last(void){
 void i2c_master_close(){
 	
     // send stop 
-	// TODO
+	TWCR = (1<<TWINT)|(1<<TWEN)|(1<<TWSTO);
 	
 	// wait until this is done
 	while( TWCR & (1 << TWSTO) )

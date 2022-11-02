@@ -1,6 +1,6 @@
 /**
 	@author Thomas Grunenberg
-	@author TODO
+	@author Kelvin Makaka
 	@version 0.1
 	@file init.c
 	@brief Init fuunction for the I/O

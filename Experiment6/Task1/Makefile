@@ -5,7 +5,7 @@
   
 
 # Options ######################################################################
-PORT=/dev/ttyUSB_MySmartUSB
+PORT=COM3
 PROGRAMMER=avr911
 TARGET_CPU=atmega88pa
 TARGET_PROCESSOR=m88p

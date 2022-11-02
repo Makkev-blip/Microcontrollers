@@ -1,6 +1,6 @@
 /**
 	@author Thomas Grunenberg
-	@author TODO
+	@author Kelvin Makaka
 	@version 0.1
 	@file ds1307.h
 	@brief Use TWI / I2C in master mode
