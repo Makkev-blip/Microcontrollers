@@ -1,6 +1,6 @@
 /**
 	@author Thomas Grunenberg
-	@author TODO
+	@author Kelvin Makaka
 	@version 0.1
 	@file main.c
 	@brief Main programm for external EEPROM usage
